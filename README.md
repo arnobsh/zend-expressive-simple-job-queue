@@ -248,8 +248,3 @@ return function (Application $app, MiddlewareFactory $factory, ContainerInterfac
 };
 
 ```
-
-ZendConfigProvider requires two packages to be installed: `zendframework/zend-config` and 
-`zendframework/zend-servicemanager`. Some config readers (JSON, YAML) may need additional
-dependencies - please refer to [Zend Config Manual](http://framework.zend.com/manual/current/en/index.html#zend-config)
-for more details.
